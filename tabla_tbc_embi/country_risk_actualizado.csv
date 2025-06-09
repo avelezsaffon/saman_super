@@ -1,0 +1,158 @@
+country,region,moodys_rating,default_spread,total_equity_risk_premium,country_risk_premium,sovereign_cds,net_of_us,country_risk_premium2
+Abu Dhabi,Middle East,Aa2,0.49,4.99,0.66,0.35,4.8,0.47
+Albania,Eastern Europe & Russia,Ba3,3.56,9.13,4.8,,,
+Andorra (Principality of),Western Europe,Baa1,1.58,6.46,2.13,,,
+Angola,Africa,B3,6.44,13.0,8.67,6.33,12.86,8.53
+Argentina,Central and South America,Ca,11.88,20.34,16.01,,,
+Armenia,Eastern Europe & Russia,Ba3,3.56,9.13,4.8,,,
+Aruba,Caribbean,Baa3,2.18,7.26,2.93,,,
+Australia,Australia & New Zealand,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Austria,Western Europe,Aa1,0.4,4.86,0.53,0.0,4.33,0.0
+Azerbaijan,Eastern Europe & Russia,Ba1,2.48,7.67,3.34,,,
+Bahamas,Caribbean,B1,4.46,10.34,6.01,,,
+Bahrain,Middle East,B2,5.45,11.67,7.34,2.1,7.16,2.83
+Bangladesh,Asia,B2,5.45,11.67,7.34,,,
+Barbados,Caribbean,B3,6.44,13.0,8.67,,,
+Belarus,Eastern Europe & Russia,C,17.5,27.91,23.58,,,
+Belgium,Western Europe,Aa3,0.59,5.13,0.8,0.02,4.36,0.03
+Belize,Central and South America,Caa1,7.43,14.34,10.01,,,
+Benin,Africa,B1,4.46,10.34,6.01,,,
+Bermuda,Caribbean,A2,0.84,5.46,1.13,,,
+Bolivia,Central and South America,Caa3,9.91,17.68,13.35,,,
+Bosnia and Herzegovina,Eastern Europe & Russia,B3,6.44,13.0,8.67,,,
+Botswana,Africa,A3,1.19,5.93,1.6,,,
+Brazil,Central and South America,Ba1,2.48,7.67,3.34,2.82,8.13,3.8
+Bulgaria,Eastern Europe & Russia,Baa1,1.58,6.46,2.13,1.02,5.7,1.37
+Burkina Faso,Africa,Caa1,7.43,14.34,10.01,,,
+Cambodia,Asia,B2,5.45,11.67,7.34,,,
+Cameroon,Africa,Caa1,7.43,14.34,10.01,6.66,13.3,8.97
+Canada,North America,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Cape Verde,Africa,B2,5.45,11.67,7.34,,,
+Cayman Islands,Caribbean,Aa3,0.59,5.13,0.8,,,
+Chile,Central and South America,A2,0.84,5.46,1.13,0.76,5.35,1.02
+China,Asia,A1,0.7,5.27,0.94,0.56,5.08,0.75
+Colombia,Central and South America,Baa2,1.89,6.87,2.54,2.96,8.32,3.99
+Congo (Democratic Republic of),Africa,B3,6.44,13.0,8.67,,,
+Congo (Republic of),Africa,Caa2,8.92,16.35,12.02,,,
+Cook Islands,Australia & New Zealand,B1,4.46,10.34,6.01,,,
+Costa Rica,Central and South America,Ba3,3.56,9.13,4.8,2.04,7.08,2.75
+Cte d'Ivoire,Africa,Ba2,2.98,8.35,4.02,,,
+Croatia,Eastern Europe & Russia,A3,1.19,5.93,1.6,0.85,5.48,1.15
+Cuba,Caribbean,Ca,11.88,20.34,16.01,,,
+Curazao,Caribbean,Baa3,2.18,7.26,2.93,,,
+Cyprus,Western Europe,A3,1.19,5.93,1.6,0.58,5.11,0.78
+Czech Republic,Eastern Europe & Russia,Aa3,0.59,5.13,0.8,0.09,4.45,0.12
+Denmark,Western Europe,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Dominican Republic,Caribbean,Ba3,3.56,9.13,4.8,,,
+Ecuador,Central and South America,Caa3,9.91,17.68,13.35,18.67,29.49,25.16
+Egypt,Africa,Caa1,7.43,14.34,10.01,5.94,12.33,8.0
+El Salvador,Central and South America,B3,6.44,13.0,8.67,3.79,9.44,5.11
+Estonia,Eastern Europe & Russia,A1,0.7,5.27,0.94,0.4,4.87,0.54
+Ethiopia,Africa,Caa2,8.92,16.35,12.02,32.56,48.2,43.87
+Fiji,Asia,B1,4.46,10.34,6.01,,,
+Finland,Western Europe,Aa1,0.4,4.86,0.53,0.0,4.33,0.0
+France,Western Europe,Aa3,0.59,5.13,0.8,0.28,4.71,0.38
+Gabon,Africa,Caa2,8.92,16.35,12.02,,,
+Georgia,Eastern Europe & Russia,Ba2,2.98,8.35,4.02,,,
+Germany,Western Europe,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Guyana,Africa,Caa2,8.92,16.35,12.02,,,
+Greece,Western Europe,Ba1,2.48,7.67,3.34,0.76,5.35,1.02
+Guatemala,Central and South America,Ba1,2.48,7.67,3.34,,,
+Guernsey (States of),Western Europe,A1,0.7,5.27,0.94,,,
+Honduras,Central and South America,B1,4.46,10.34,6.01,,,
+Hong Kong,Asia,Aa3,0.59,5.13,0.8,0.23,4.64,0.31
+Hungary,Eastern Europe & Russia,Baa2,1.89,6.87,2.54,1.38,6.19,1.86
+Iceland,Western Europe,A1,0.7,5.27,0.94,0.0,4.33,0.0
+India,Asia,Baa3,2.18,7.26,2.93,0.54,5.06,0.73
+Indonesia,Asia,Baa2,1.89,6.87,2.54,0.9,5.54,1.21
+Iraq,Middle East,Caa1,7.43,14.34,10.01,3.74,9.37,5.04
+Ireland,Western Europe,Aa3,0.59,5.13,0.8,0.0,4.33,0.0
+Isle of Man,Western Europe,Aa3,0.59,5.13,0.8,,,
+Israel,Middle East,Baa1,1.58,6.46,2.13,1.03,5.72,1.39
+Italy,Western Europe,Baa3,2.18,7.26,2.93,0.77,5.37,1.04
+Jamaica,Caribbean,B1,4.46,10.34,6.01,,,
+Japan,Asia,A1,0.7,5.27,0.94,0.0,4.33,0.0
+Jersey (States of),Western Europe,Aa2,0.49,4.99,0.66,,,
+Jordan,Middle East,Ba3,3.56,9.13,4.8,,,
+Kazakhstan,Eastern Europe & Russia,Baa1,1.58,6.46,2.13,0.95,5.61,1.28
+Kenya,Africa,Caa1,7.43,14.34,10.01,5.51,11.75,7.42
+Korea,Asia,Aa2,0.49,4.99,0.66,0.07,4.42,0.09
+Kuwait,Middle East,A1,0.7,5.27,0.94,0.53,5.04,0.71
+Kyrgyzstan,Eastern Europe & Russia,B3,6.44,13.0,8.67,,,
+Laos,Asia,Caa3,9.91,17.68,13.35,,,
+Latvia,Eastern Europe & Russia,A3,1.19,5.93,1.6,0.44,4.92,0.59
+Lebanon,Middle East,C,17.5,27.91,23.58,,,
+Liechtenstein,Western Europe,Aaa,0.0,4.33,0.0,,,
+Lithuania,Eastern Europe & Russia,A2,0.84,5.46,1.13,0.55,5.07,0.74
+Luxembourg,Western Europe,Aaa,0.0,4.33,0.0,,,
+Macao,Asia,Aa3,0.59,5.13,0.8,,,
+Macedonia,Eastern Europe & Russia,Ba3,3.56,9.13,4.8,,,
+Malaysia,Asia,A3,1.19,5.93,1.6,0.44,4.92,0.59
+Maldives,Asia,Caa2,8.92,16.35,12.02,,,
+Mali,Africa,Caa2,8.92,16.35,12.02,,,
+Malta,Western Europe,A2,0.84,5.46,1.13,,,
+Mauritius,Africa,Baa3,2.18,7.26,2.93,,,
+México,Central and South America,Baa2,1.89,6.87,2.54,1.81,6.77,2.44
+Moldova,Eastern Europe & Russia,B3,6.44,13.0,8.67,,,
+Mongolia,Asia,B2,5.45,11.67,7.34,,,
+Montenegro,Eastern Europe & Russia,B1,4.46,10.34,6.01,,,
+Montserrat,Caribbean,Baa3,2.18,7.26,2.93,,,
+Morocco,Africa,Ba1,2.48,7.67,3.34,1.1,5.81,1.48
+Mozambique,Africa,Caa2,8.92,16.35,12.02,,,
+Namibia,Africa,B1,4.46,10.34,6.01,,,
+Nepal,Asia,Ba3,3.56,9.13,4.8,,,
+Netherlands,Western Europe,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+New Zealand,Australia & New Zealand,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Nicaragua,Central and South America,B2,5.45,11.67,7.34,6.16,12.63,8.3
+Niger,Africa,Caa3,9.91,17.68,13.35,,,
+Nigeria,Africa,Caa1,7.43,14.34,10.01,6.03,12.46,8.13
+Norway,Western Europe,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Oman,Middle East,Ba1,2.48,7.67,3.34,1.22,5.97,1.64
+Pakistan,Asia,Caa2,8.92,16.35,12.02,16.08,26.0,21.67
+Panamá,Central and South America,Baa3,2.18,7.26,2.93,2.67,7.93,3.6
+Papua New Guinea,Asia,B2,5.45,11.67,7.34,,,
+Paraguay,Central and South America,Baa3,2.18,7.26,2.93,,,
+Perú,Central and South America,Baa1,1.58,6.46,2.13,1.06,5.76,1.43
+Philippines,Asia,Baa2,1.89,6.87,2.54,0.8,5.41,1.08
+Poland,Eastern Europe & Russia,A2,0.84,5.46,1.13,0.64,5.19,0.86
+Portugal,Western Europe,A3,1.19,5.93,1.6,0.17,4.56,0.23
+Qatar,Middle East,Aa2,0.49,4.99,0.66,0.36,4.82,0.49
+Ras Al Khaimah (Emirate of),Middle East,A3,1.19,5.93,1.6,,,
+Rumanía,Eastern Europe & Russia,Baa3,2.18,7.26,2.93,1.98,7.0,2.67
+Rwanda,Africa,B2,5.45,11.67,7.34,4.14,9.91,5.58
+Saudi Arabia,Middle East,Aa3,0.59,5.13,0.8,0.64,5.19,0.86
+Senegal,Africa,B1,4.46,10.34,6.01,5.82,12.17,7.84
+Serbia,Eastern Europe & Russia,Ba2,2.98,8.35,4.02,0.85,5.48,1.15
+Sharjah,Middle East,Ba1,2.48,7.67,3.34,,,
+Singapore,Asia,Aaa,0.0,4.33,0.0,,,
+Slovakia,Eastern Europe & Russia,A3,1.19,5.93,1.6,0.14,4.52,0.19
+Slovenia,Eastern Europe & Russia,A3,1.19,5.93,1.6,0.31,4.75,0.42
+Solomon Islands,Asia,Caa1,7.43,14.34,10.01,,,
+South Africa,Africa,Ba2,2.98,8.35,4.02,2.59,7.82,3.49
+España,Western Europe,Baa1,1.58,6.46,2.13,0.26,4.68,0.35
+Sri Lanka,Asia,Ca,11.88,20.34,16.01,,,
+St. Maarten,Caribbean,Ba2,2.98,8.35,4.02,,,
+St. Vincent & the Grenadines,Caribbean,B3,6.44,13.0,8.67,,,
+Suriname,Central and South America,Caa1,7.43,14.34,10.01,,,
+Swaziland,Africa,B2,5.45,11.67,7.34,,,
+Sweden,Western Europe,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Switzerland,Western Europe,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Taiwan,Asia,Aa3,0.59,5.13,0.8,,,
+Tajikistan,Eastern Europe & Russia,B3,6.44,13.0,8.67,,,
+Tanzania,Africa,B1,4.46,10.34,6.01,,,
+Thailand,Asia,Baa1,1.58,6.46,2.13,0.29,4.72,0.39
+Togo,Africa,B3,6.44,13.0,8.67,,,
+Trinidad and Tobago,Caribbean,Ba2,2.98,8.35,4.02,,,
+Tunisia,Africa,Caa2,8.92,16.35,12.02,9.83,17.58,13.25
+Turkey,Western Europe,B1,4.46,10.34,6.01,3.21,8.66,4.33
+Turks and Caicos Islands,Caribbean,Baa1,1.58,6.46,2.13,,,
+Uganda,Africa,B3,6.44,13.0,8.67,,,
+Ukraine,Eastern Europe & Russia,Ca,11.88,20.34,16.01,,,
+United Arab Emirates,Middle East,Aa2,0.49,4.99,0.66,,,
+United Kingdom,Western Europe,Aa3,0.59,5.13,0.8,0.0,4.33,0.0
+EE.UU.,North America,Aaa,0.0,4.33,0.0,0.0,4.33,0.0
+Uruguay,Central and South America,Baa1,1.58,6.46,2.13,0.86,5.49,1.16
+Uzbekistan,Eastern Europe & Russia,Ba3,3.56,9.13,4.8,,,
+Venezuela,Central and South America,C,17.5,27.91,23.58,9.67,17.36,13.03
+Vietnam,Asia,Ba2,2.98,8.35,4.02,1.24,6.0,1.67
+Zambia,Africa,Caa2,8.92,16.35,12.02,,,

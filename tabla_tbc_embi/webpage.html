@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasa Teórica de Descuento</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .formula {
+      background-color: #eef;
+      padding: 1rem;
+      border-left: 4px solid #447;
+      margin: 1rem 0;
+      font-family: monospace;
+    }
+    .latex-table {
+      margin-top: 2rem;
+      background-color: #fff;
+      padding: 1rem;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Tasa Teórica de Descuento</h1>
+    <p>
+      La Tasa Teórica de Descuento es un indicador desarrollado para evaluar el rendimiento exigido a una inversión en mercados internacionales, combinando componentes de riesgo-país, riesgo cambiario y el retorno libre de riesgo. Su construcción está basada en la metodología de <strong>Aswath Damodaran</strong>, profesor de Finanzas en NYU Stern, según lo documentado en su sitio oficial:
+      <a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html" target="_blank">Country Risk Premiums</a>.
+    </p>
+
+    <div class="formula">
+      Tasa Teórica de Descuento = min(EMBI, CRP Damodaran) + Tasa de devaluación esperada + Tasa libre de riesgo en USD
+    </div>
+
+    <p><strong>Componentes:</strong></p>
+    <ul>
+      <li><strong>EMBI:</strong> El spread de bonos soberanos medido por JP Morgan, que representa la prima de riesgo-país.</li>
+      <li><strong>CRP Damodaran:</strong> Country Risk Premium publicado por Damodaran, calculado a partir de spreads soberanos y ratings crediticios.</li>
+      <li><strong>Tasa de devaluación esperada:</strong> Se estima como:
+        <ul>
+          <li>0% si la moneda funcional es el USD.</li>
+          <li>La diferencia entre la tasa del banco central del país y la tasa de la Reserva Federal si la moneda es local.</li>
+        </ul>
+      </li>
+      <li><strong>Tasa libre de riesgo:</strong> Usualmente se toma como la yield de los bonos del Tesoro de EE.UU. a 10 años.</li>
+    </ul>
+
+    <p>
+      Esta metodología busca establecer una tasa mínima de retorno aceptable para inversiones ajustadas por riesgo-país, con sustento en teorías modernas de valoración y riesgo, siendo especialmente útil para mercados emergentes. El uso de tasas de descuento adecuadas es fundamental para determinar el valor presente de flujos futuros, estimar valoraciones de empresas y activos, y establecer criterios de rentabilidad en decisiones de inversión. Una tasa mal estimada puede resultar en decisiones financieras subóptimas, como sobrevaloración de activos o subestimación del riesgo asumido.
+    </p>
+
+    <p>
+      Las tasas utilizadas provienen de fuentes confiables y son actualizadas automáticamente a través de nuestra aplicación de datos <strong>Xerenity</strong>:
+    </p>
+    <ul>
+      <li><strong>Tasas del banco central:</strong> obtenidas directamente del <em>Bank for International Settlements (BIS)</em>.</li>
+      <li><strong>Tasas EMBI:</strong> extraídas mediante integración con <em>Alphacast</em>, proveedor especializado en datos financieros de mercados emergentes.</li>
+      <li><strong>Country Risk Premium (CRP):</strong> tomado del portal oficial de Damodaran.</li>
+    </ul>
+
+    <p>
+      Estas integraciones permiten mantener la información siempre actualizada, evitando el riesgo de decisiones basadas en datos obsoletos, y permitiendo una valorización dinámica, precisa y trazable.
+    </p>
+
+    <div class="latex-table">
+  <p><strong>Visualización de tabla (actualizada automáticamente):</strong></p>
+  <img src="C:\Users\Usuario\OneDrive - Saman\Documentos\GitHub\saman\tabla_tbc_embi\tabla_teorica_descuento.jpg" alt="Tabla Tasa Teórica de Descuento" style="max-width: 100%; border: 1px solid #ccc;">
+</div>
+  </div>
+</body>
+</html>
+
+
+
