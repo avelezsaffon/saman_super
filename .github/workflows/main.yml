@@ -29,7 +29,7 @@ jobs:
         echo "XERENITY_PASS=${{ secrets.XERENITY_PASS }}" >> .env
 
     - name: Ejecutar script de generación
-      run: python scripts/generar_tabla.py
+      run: main.py
 
     - name: Subir imagen generada
       uses: stefanzweifel/git-auto-commit-action@v5
