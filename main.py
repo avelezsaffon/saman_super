@@ -149,6 +149,10 @@ tabla.auto_set_font_size(False)
 tabla.set_fontsize(9)
 tabla.scale(1, 1.5)
 
-plt.savefig(os.path.join("..", "assets", "tabla_teorica_descuento.jpg"), bbox_inches='tight', dpi=300)
-plt.close()
+# Crear carpeta si no existe
+os.makedirs("assets", exist_ok=True)
+
+# Guardar imagen en carpeta assets dentro del mismo repositorio
+plt.savefig("assets/tabla_teorica_descuento.jpg", bbox_inches='tight', dpi=300)
+
 
