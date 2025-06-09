@@ -37,7 +37,7 @@ df["embi"] = pd.to_numeric(df["embi"], errors="coerce").round(2)
 # 3. Cargar y limpiar datos externos de riesgo país
 # =======================
 
-df_risk = pd.read_csv(os.path.join("..", "data", "country_risk_actualizado.csv"), sep=",", encoding="utf-8")
+df_risk = pd.read_csv("country_risk_actualizado.csv", sep=",", encoding="utf-8")
 
 df_risk.columns = df_risk.columns.str.strip().str.lower().str.replace(" ", "_")
 
