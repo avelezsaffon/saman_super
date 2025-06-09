@@ -5,6 +5,9 @@ on:
     - cron: '0 7 * * 1'  # Cada lunes a las 7am UTC
   workflow_dispatch:
 
+permissions:
+  contents: write  # 🔑 Necesario para que el bot pueda hacer push
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,3 +39,7 @@ jobs:
       with:
         commit_message: "Actualización automática de imagen tabla_teorica_descuento.jpg"
         file_pattern: assets/tabla_teorica_descuento.jpg
+        commit_user_name: Andres Velez
+        commit_user_email: andres.velez@uniandes.edu.co
+        commit_author: Andres Velez <andres.velez@uniandes.edu.co>
+
