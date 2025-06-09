@@ -2,7 +2,7 @@ name: Generar tabla teórica de descuento
 
 on:
   schedule:
-    - cron: '0 7 * * 1'  # Todos los lunes a las 7am UTC
+    - cron: '0 7 * * 1'  # Cada lunes a las 7am UTC
   workflow_dispatch:
 
 jobs:
@@ -23,13 +23,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Configurar credenciales Xerenity
-      env:
-        XERENITY_USER: ${{ secrets.XERENITY_USER }}
-        XERENITY_PASS: ${{ secrets.XERENITY_PASS }}
+    - name: Crear archivo .env con credenciales
       run: |
-        echo "XERENITY_USER=${XERENITY_USER}" >> .env
-        echo "XERENITY_PASS=${XERENITY_PASS}" >> .env
+        echo "XERENITY_USER=${{ secrets.XERENITY_USER }}" >> .env
+        echo "XERENITY_PASS=${{ secrets.XERENITY_PASS }}" >> .env
 
     - name: Ejecutar script de generación
       run: python scripts/generar_tabla.py
@@ -39,3 +36,4 @@ jobs:
       with:
         commit_message: "Actualización automática de imagen tabla_teorica_descuento.jpg"
         file_pattern: assets/tabla_teorica_descuento.jpg
+
