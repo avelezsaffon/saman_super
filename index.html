@@ -47,12 +47,16 @@
   <div class="container">
     <h1>Tasa Teórica de Descuento</h1>
     <p>
-      La Tasa Teórica de Descuento es un indicador desarrollado para evaluar el rendimiento exigido a una inversión en mercados internacionales, combinando componentes de riesgo-país, riesgo cambiario y el retorno libre de riesgo. Su construcción está basada en la metodología de <strong>Aswath Damodaran</strong>, profesor de Finanzas en NYU Stern, según lo documentado en su sitio oficial:
-      <a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html" target="_blank">Country Risk Premiums</a>.
+      La Tasa Teórica de Descuento es un indicador desarrollado para evaluar el rendimiento exigido a una inversión en mercados internacionales, combinando componentes de riesgo-país, riesgo cambiario y el retorno libre de riesgo. Se guía de la metodología de <strong>Aswath Damodaran</strong>, profesor de Finanzas en NYU Stern, y utiliza sus estimaciones de <a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html" target="_blank">Country Risk Premiums</a>.
     </p>
 
     <div class="formula">
       Tasa Teórica de Descuento = min(EMBI, CRP Damodaran) + Tasa de devaluación esperada + Tasa libre de riesgo en USD
+    </div>
+
+    <div class="latex-table">
+      <p><strong>Visualización de tabla (actualizada automáticamente):</strong></p>
+      <img src="assets/tabla_teorica_descuento.jpg" alt="Tabla Tasa Teórica de Descuento" style="max-width: 100%; border: 1px solid #ccc;">
     </div>
 
     <p><strong>Componentes:</strong></p>
@@ -73,7 +77,7 @@
     </p>
 
     <p>
-      Las tasas utilizadas provienen de fuentes confiables y son actualizadas automáticamente a través de nuestra aplicación de datos <strong>Xerenity</strong>:
+      Las tasas utilizadas provienen de fuentes confiables y son actualizadas automáticamente a través de nuestra aplicación de datos <strong><a href="https://xerenity.co" target="_blank">Xerenity</a></strong>:
     </p>
     <ul>
       <li><strong>Tasas del banco central:</strong> obtenidas directamente del <em>Bank for International Settlements (BIS)</em>.</li>
@@ -84,11 +88,6 @@
     <p>
       Estas integraciones permiten mantener la información siempre actualizada, evitando el riesgo de decisiones basadas en datos obsoletos, y permitiendo una valorización dinámica, precisa y trazable.
     </p>
-
-    <div class="latex-table">
-  <p><strong>Visualización de tabla (actualizada automáticamente):</strong></p>
-  <img src="assets\tabla_teorica_descuento.jpg" alt="Tabla Tasa Teórica de Descuento" style="max-width: 100%; border: 1px solid #ccc;">
-</div>
   </div>
 </body>
 </html>
